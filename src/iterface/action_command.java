@@ -8,6 +8,6 @@ public interface action_command {
 	 
 	 void addUser();
 	 void setPrivilege();
-	void addUser(int id, String Name, String Password);
+	 void addUser(int id, String Name, String Password);
 
 }
