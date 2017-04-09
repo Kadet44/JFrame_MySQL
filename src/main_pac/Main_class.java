@@ -1,3 +1,4 @@
+package main_pac;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -12,8 +13,8 @@ public class Main_class {
 	public static void main(String[] args) {
 		// fr_conect = new Grafic_Connect_server();
 		//System.out.println("");
-		//Server sever = new Server();
-		//sever.start();
+		Server sever = new Server();
+		sever.start();
 		//Client client = new Client();
 		Chat_window obj = new Chat_window();
 	    
